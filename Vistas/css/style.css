@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(250, 207, 231);
+    background-color:rgb(255, 238, 247);
 }
 /* Header*/
 .tm-header{
@@ -32,7 +32,9 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(253, 232, 232);
-    border: 1px black solid;
+    border-top: 1px transparent solid;
+    border-left: 1px transparent solid;
+    border-right: 1px transparent solid;
 }
 h5{
     background-color: rgb(253, 232, 232);
@@ -46,4 +48,17 @@ h5{
 
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f70577' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/*busqueda*/
+.tm-home-section-1{
+    position: relative;
+    top: -1vh;
+    height:25vh;
+    background-color:rgb(253, 232, 232);
+}
+.columna-medio{
+    border:2px #f70577 solid;
+    height:20vh;
+    /*box-shadow: 20px 10px 20px #fe88bf;*/
 }
