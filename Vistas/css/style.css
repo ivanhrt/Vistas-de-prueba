@@ -32,9 +32,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(253, 232, 232);
-    border-top: 1px transparent solid;
-    border-left: 1px transparent solid;
-    border-right: 1px transparent solid;
+    border: 1px rgb(181, 181, 181) solid;
 }
 h5{
     background-color: rgb(253, 232, 232);
@@ -52,13 +50,18 @@ h5{
 
 /*busqueda*/
 .tm-home-section-1{
-    position: relative;
-    top: -1vh;
+    padding-top: 2vh;
     height:25vh;
-    background-color:rgb(253, 232, 232);
+}
+.input-group{
+    background-color: rgb(253, 232, 232);
+}
+.form-control{
+    background: rgb(237, 200, 200);
 }
 .columna-medio{
-    border:2px #f70577 solid;
-    height:20vh;
-    /*box-shadow: 20px 10px 20px #fe88bf;*/
+    border: 1px rgb(181, 181, 181) solid;
+    padding-bottom: 1vh;
+    border-radius: 1vh;
+    background-color: rgb(253, 232, 232);
 }
