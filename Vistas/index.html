@@ -8,12 +8,15 @@
     <title>Olulu Hokele</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!--header-->
     <div class="tm-header">
         <div class="container">
             <div class="row header-row">
@@ -25,7 +28,8 @@
                 <div class="col-3 col2">
                     <nav class="navbar navbar-expand-md">
                         <div class="container-fluid">
-                            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+                            <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                                data-bs-target="#MenuNavegacion">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div id="MenuNavegacion" class="collapse navbar-collapse">
@@ -37,7 +41,8 @@
                                         <a class="nav-link objeto" href="#">Contact</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle objeto" href="#" role="button" data-bs-toggle="dropdown">Enter</a>
+                                        <a class="nav-link dropdown-toggle objeto" href="#" role="button"
+                                            data-bs-toggle="dropdown">Enter</a>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item objeto" href="#">Login</a></li>
                                             <li><a class="dropdown-item objeto" href="#">Register</a></li>
@@ -50,6 +55,39 @@
                 </div>
             </div>
         </div>
+    </div>
+    <!--Banner-->
+    <section class="tm-banner">
+        <!-- Flexslider -->
+        <div class="flexslider flexslider-banner">
+            <ul class="slides">
+                <li>
+                    <div class="tm-banner-inner">
+                        <h1 class="tm-banner-title">Find <span class="tm-yellow-text">The Best</span> Place</h1>
+                        <p class="tm-banner-subtitle">For Your Holidays</p>
+                        <a href="#more" class="tm-banner-link">Learn More</a>
+                    </div>
+                    <img src="img/banner-1.jpg" alt="Image" />
+                </li>
+                <li>
+                    <div class="tm-banner-inner">
+                        <h1 class="tm-banner-title">Lorem <span class="tm-yellow-text">Ipsum</span> Dolor</h1>
+                        <p class="tm-banner-subtitle">Wonderful Destinations</p>
+                        <a href="#more" class="tm-banner-link">Learn More</a>
+                    </div>
+                    <img src="img/banner-2.jpg" alt="Image" />
+                </li>
+                <li>
+                    <div class="tm-banner-inner">
+                        <h1 class="tm-banner-title">Proin <span class="tm-yellow-text">Gravida</span> Nibhvell</h1>
+                        <p class="tm-banner-subtitle">Velit Auctor</p>
+                        <a href="#more" class="tm-banner-link">Learn More</a>
+                    </div>
+                    <img src="img/banner-3.jpg" alt="Image" />
+                </li>
+            </ul>
+        </div>
+    </section>
 </body>
 
 </html>

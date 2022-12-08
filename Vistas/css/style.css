@@ -1,6 +1,7 @@
 body{
     background-color:rgb(250, 207, 231);
 }
+/* Header*/
 .tm-header{
     background: rgb(237, 200, 200);
     height: 80px;
@@ -24,3 +25,18 @@ body{
 .objeto{
     color: #f70577;
 }
+
+/*Banner*/
+
+.tm-banner{
+    margin-top: 5vh;
+    z-index: 100;
+}
+.tm-banner-inner { height: 400px;    }
+    .tm-banner-title { font-size: 40px;    }
+    .tm-banner-subtitle { font-size: 24px; }
+    .tm-banner-inner { top: 0; }
+    .tm-banner-link {
+        padding: 12px 30px;
+        margin-top: 10px;
+    }
