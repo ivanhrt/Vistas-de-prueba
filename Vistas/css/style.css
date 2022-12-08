@@ -49,7 +49,6 @@ h5{
 /*busqueda*/
 .tm-home-section-1{
     padding-top: 1vh;
-    height:10vh;
 }
 .input-group{
     background-color: rgb(253, 232, 232);
@@ -62,4 +61,17 @@ h5{
     padding-bottom: 1vh;
     border-radius: 1vh;
     background-color: rgb(253, 232, 232);
+}
+/*Cards*/
+.cards{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.visitado{
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.cartas{
+    padding-left: 5vh;
 }
