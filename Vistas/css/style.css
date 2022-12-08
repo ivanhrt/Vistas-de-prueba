@@ -29,8 +29,7 @@ body{
 /*Banner*/
 .card{
     display:flex;
-    justify-content: center;
-    align-items: center;
+
     background-color: rgb(253, 232, 232);
     border: 1px rgb(181, 181, 181) solid;
 }
